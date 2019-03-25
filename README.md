@@ -9,7 +9,7 @@ Compute the Bigram Model(counts and probabilities) on a given corpus for followi
 
 3. Good-Turing Discounting based Smoothing
 
-Run Command:  python BiGrams.py <path of the file CorpusTreebank2.txt>
+Run Command:  ```python BiGrams.py <path of the file CorpusTreebank2.txt>```
 
 
 -> Brills
@@ -24,13 +24,13 @@ Using the learnt rules, fill out the missing POS tags (for the words “standard
 
 The_DT standard_?? Turbo_NN engine_NN is_VBZ hard_JJ to_TO work_??
 
-Run Command: python Brills.py <path of the file POSTaggedTrainingSet.txt>
+Run Command: ```python Brills.py <path of the file POSTaggedTrainingSet.txt>```
 
 -> POS Probabilities
 
 Compute the bigram models (counts and probabilities) required by Naïve Bayesian Classification (Bigram) based POS Tagging.
 
-Run Command: python POS_probs.py <path of the file POSTaggedTrainingSet.txt>
+Run Command: ```python POS_probs.py <path of the file POSTaggedTrainingSet.txt>```
 
 -> ViterbiHMM
 
@@ -39,4 +39,4 @@ The Viterbi algorithm to compute the most likely weather sequence and probabilit
 The Given HMM:
 ![The HMM](https://github.com/taniyariar/Natural-Language-Processing/blob/master/hmm.PNG)
 
-Run Command: python ViterbiHMM.py
+Run Command: ```python ViterbiHMM.py```
