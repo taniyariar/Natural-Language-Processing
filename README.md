@@ -36,14 +36,7 @@ Run Command: python POS_probs.py <path of the file POSTaggedTrainingSet.txt>
 
 The Viterbi algorithm to compute the most likely weather sequence and probability for any given observation sequence. Example observation sequences: 331, 122313, 331123312, etc.
 
-#defining the given HMM
-
-intial probabilities ={'hot':0.8,'cold':0.2}
-
-transition probabilties ={'hot':{'hot':0.7,'cold':0.3},'cold':{'hot':0.4,'cold':0.6}}
-
-observational probabilities = {'hot':{'1':0.2,'2':0.4,'3':0.4},'cold':{'1':0.5,'2':0.4,'3':0.1}}
-
-states = ['hot','cold']
+The Given HMM:
+![The HMM](https://github.com/taniyariar/Natural-Language-Processing/blob/master/hmm.PNG)
 
 Run Command: python ViterbiHMM.py
